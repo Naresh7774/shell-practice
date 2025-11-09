@@ -18,3 +18,7 @@
     if [ $age -ge 18 ]; then
     echo "You are an adult."
     else
+
+
+
+echo "Hello world"

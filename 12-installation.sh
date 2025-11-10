@@ -1,6 +1,6 @@
 #!bin/bash
 
-USERID=$(ID -u)
+USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
     echo "ERROR:: please runthis script with root priviliage"

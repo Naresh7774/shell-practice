@@ -6,4 +6,4 @@ SUM=$(($NUMBER1+$NUMBER2))
 echo "SUM IS ${SUM}"
 
 LEADERS=("MODI" "PUTIN" "TRUDO")
-echo "ALL NAMES ARE : ${{LEADERS[@]}}"
+echo "ALL NAMES ARE : ${LEADERS[@]}"

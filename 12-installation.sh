@@ -1,8 +1,8 @@
 #!bin/bash
 
-USERID=$(ID -U)
+USERID=$(ID -u)
 
-if [ $USERID -ne 0]; then
+if [ $USERID -ne 0 ]; then
     echo "ERROR:: please runthis script with root priviliage"
     exit 1 #failure is other than 0
 fi

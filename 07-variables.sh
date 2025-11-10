@@ -3,7 +3,7 @@
 #DATE=$(date)
 START_TIME=$(date +%S)
 
-sleep 10 &
+sleep 10 
 
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 #echo "Timestamo exicuted : $DATE"

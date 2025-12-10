@@ -1,10 +1,4 @@
 #!/bin/bash
-
-#DATE=$(date)
-START_TIME=$(date +%S)
-
-sleep 10 
-
-TOTAL_TIME=$(($END_TIME-$START_TIME))
-#echo "Timestamo exicuted : $DATE"
-echo "Script executed in: $TOTAL_TIME seconds"
+echo "enter you pincode number"
+read -s PIN_NUMBER
+echo "you number is $PIN_NUMBER"

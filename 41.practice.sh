@@ -7,3 +7,4 @@ elif [ $num -ne 0 ]; then
     echo "$num is negetive"
 else 
     echo "number is 0"
+fi

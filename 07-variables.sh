@@ -5,6 +5,8 @@ START_TIME=$(date +%S)
 
 sleep 10 
 
+END_TIME=$((date +%s))
+
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 #echo "Timestamo exicuted : $DATE"
 echo "Script executed in: $TOTAL_TIME seconds"

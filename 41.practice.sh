@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Enter num: "
 read num
 if [ $num -gt 0 ]; then

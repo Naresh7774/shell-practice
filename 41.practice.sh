@@ -1,4 +1,8 @@
-#!/bin/bash
-echo "Enter your pincode number in the text"
-read -s PIN_NUMBER
-echo "you number is $PIN_NUMBER"
+echo "Enter num: "
+read num
+if [ $num -gt 0 ]; then
+    echo "$num is positive"
+elif [ $num -ne 0 ]; then
+    echo "$num is negetive"
+else 
+    echo "number is 0"
